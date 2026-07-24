@@ -1,8 +1,13 @@
 #ifndef NET_CTG_H
 #define NET_CFG_H
 
+#include "dbg.h"
 
 #define DBG_MBLOCK DBG_LEVEL_INFO
 #define DBG_QUEUE DBG_LEVEL_INFO
+#define DBG_MSG DBG_LEVEL_INFO
+
+#define EXMSG_MSG_CNT 10
+#define EXMSG_LOCKER NLOCKER_THREAD
 
 #endif
